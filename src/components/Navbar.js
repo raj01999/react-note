@@ -30,7 +30,7 @@ export default function Navbar({
     <nav>
       {/* {console.log("Navbar Rander")} */}
       <ul>
-        <Link to="/" onClick={handleOnClick}>
+        <Link to="/" onClick={handleOnClick} className="logo">
           <li
             style={{ fontSize: "1.5rem", position: "relative", bottom: "6px" }}
           >

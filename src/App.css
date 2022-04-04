@@ -100,3 +100,13 @@ textarea {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 595px) {
+  .logo {
+    display: none;
+  }
+
+  textarea {
+    width: 19rem;
+  }
+}
