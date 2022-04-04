@@ -1,0 +1,101 @@
+nav {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: slategray;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20rem;
+  list-style: none;
+}
+
+nav ul li {
+  border-radius: 10px;
+  padding: 7px;
+  color: white;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+nav form {
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav form input {
+  height: 2.2rem;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+/* Card Css */
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 15px;
+  background-color: whitesmoke;
+}
+
+.card button {
+  margin: 10px;
+  text-align: center;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: gray;
+  border: none;
+}
+
+.card button:hover {
+  cursor: pointer;
+}
+
+.card p {
+  padding: 10px;
+  word-break: break-word;
+}
+
+.card h4 {
+  padding-left: 10px;
+  padding-top: 10px;
+  word-break: break-word;
+}
+
+/* Css Home  */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 50%;
+  height: 20vh;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+/* About Css */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
