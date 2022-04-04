@@ -85,6 +85,7 @@ textarea {
   margin: 5px;
   padding: 5px;
   border-radius: 7px;
+  resize: none;
 }
 
 /* About Css */

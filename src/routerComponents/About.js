@@ -3,10 +3,11 @@ import React from "react";
 export default function About() {
   return (
     <div className="about">
+      {/* {console.log("About Rander")} */}
       <ul>
-        <li>This Website is dedicated to you who someone I admire most</li>
-        <li>You want to know? Who is he/she?</li>
-        <li>Sorry! Thats a Secret</li>
+        <li>Who am I?</li>
+        <li>Why I'm exist?</li>
+        <li>No Ans!</li>
       </ul>
     </div>
   );
