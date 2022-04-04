@@ -51,7 +51,7 @@ export default function Home({ searchKey, reload }) {
             top: "7.5rem",
           }}
         >
-          Note Added
+          Added
         </p>
       )}
       {deleteAleart && (
